@@ -1,0 +1,145 @@
+@font-face { 
+  font-family: Montserrat; 
+  font-weight: bold; 
+  src: url('fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face { 
+  font-family: Source Sans Pro; 
+  src: url('fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+}
+
+
+body {
+  background-color: rgb(248, 179, 29);
+}
+
+.wrapper {
+  margin-top: 3em;
+  text-align: center;
+}
+
+#welcome {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:Bold;
+  font-weight:300;
+  font-size: 30px;
+  color: rgb(49, 49, 49);
+  display: inline;
+}
+
+#name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  font-size: 24px;
+  color: rgb(49, 49, 49);
+  text-align: center;
+}
+
+#description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: rgb(49, 49, 49);
+  text-align: center;
+}
+
+#gif {
+  width: 45px;
+}
+
+hr { 
+  display: block; 
+  height: 2px;
+  border: 0; 
+  border-top: 1px solid rgb(236, 176, 10); 
+  padding: 0;
+  width: 75%; 
+}
+
+#myself {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.center {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa {
+  padding: 5px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+  opacity: 0.9;
+  background: #3b5998;
+}
+
+.fa-twitter:hover {
+  opacity: 0.9;
+  background: #00acee;
+}
+
+.fa-instagram:hover {
+  opacity: 0.9;
+  background: #3f729b;
+}
+
+.fa-facebook {
+  background: #dd7030;
+  color: white;
+}
+
+.fa-twitter {
+  background: #dd7030;
+  color: white;
+}
+
+.fa-instagram {
+  background: #dd7030;
+  color: white;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 10px;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.facebook-color {
+  color: #3b5998;
+}
+
+.twitter-color {
+  color: #00acee;
+}
+
+.instagram-color {
+  color: #3f729b;
+}

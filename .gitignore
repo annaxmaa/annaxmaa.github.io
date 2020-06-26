@@ -1,0 +1,11 @@
+# System Files
+.DS_Store
+
+node_modules/*
+
+Transpiled
+dist/
+
+# Logging
+server.log
+error.log
