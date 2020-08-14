@@ -1,5 +1,3 @@
-# My first webpage about myself
+# My first webpage about myself :woman:
 
-Finde etwas über mich und mein Leben heraus.
-
-Besuche mich auch gerne auf meinen Social Media Accounts die verlinkt sind.
+Visit me on my linked social media channels :eyeglasses:
