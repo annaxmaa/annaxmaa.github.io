@@ -1,12 +1,12 @@
 @font-face { 
   font-family: Arvo; 
   font-weight: bold; 
-  src: url('fonts/Arvo/Arvo-Bold.ttf');
+  src: url('assets/fonts/Arvo/Arvo-Bold.ttf');
 }
 
 @font-face { 
   font-family: sometype-mono; 
-  src: url('fonts/sometype-mono/SometypeMono-Regular.ttf');
+  src: url('assets/fonts/sometype-mono/SometypeMono-Regular.ttf');
 }
 
 body {
