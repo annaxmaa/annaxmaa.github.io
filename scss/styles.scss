@@ -1,0 +1,91 @@
+@font-face { 
+  font-family: Arvo; 
+  font-weight: bold; 
+  src: url('assets/fonts/Arvo/Arvo-Bold.ttf');
+}
+
+@font-face { 
+  font-family: sometype-mono; 
+  src: url('assets/fonts/sometype-mono/SometypeMono-Regular.ttf');
+}
+
+body {
+  background: #2D2D2D;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url(../assets/pictures/background-line.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 6rem;
+  padding-bottom: 3rem;
+}
+
+.typewriter {
+	text-align: center;
+  font-family: sometype-mono;
+  
+  .typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+ 	  animation: typing 3s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 2rem;
+    border-right: 4px solid #E66EBA;
+    box-sizing: border-box;
+  }
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #E66EBA; 
+    }
+}
+}
+
+.potrait {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 6rem;
+    height: auto;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2rem;
+  width: 100%;
+
+  .left-column {
+    float: left;
+    margin-left: 2rem;
+
+    img {
+      padding-right: 2rem;
+      height: 2rem;
+      width: auto;
+    }
+  }
+
+  .right-column {
+    float: right;
+    margin-right: 2rem;
+
+    img {
+      height: 3rem;
+      width: auto;
+    }
+  }
+}

@@ -1,69 +1,69 @@
 @font-face {
   font-family: Arvo;
   font-weight: bold;
-  src: url("assets/fonts/Arvo/Arvo-Bold.ttf");
-}
+  src: url("assets/fonts/Arvo/Arvo-Bold.ttf"); }
+
 @font-face {
   font-family: sometype-mono;
-  src: url("assets/fonts/sometype-mono/SometypeMono-Regular.ttf");
-}
+  src: url("assets/fonts/sometype-mono/SometypeMono-Regular.ttf"); }
+
 body {
   background: #2D2D2D;
-  margin: 2.25rem 5rem 2.25rem 5rem;
-  background-image: url(./assets/pictures/background-line.svg);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url(../assets/pictures/background-line.svg);
   background-size: 100%;
   background-repeat: no-repeat;
-}
+  color: white; }
 
-.welcome img {
+.welcome {
+  display: flex;
+  justify-content: center;
   width: auto;
   height: 6rem;
-}
+  padding-bottom: 3rem; }
 
-.card-wrapper {
-  background: #1F1F1F;
-  box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.15);
-  height: auto;
-  width: auto;
-  border-radius: 0 30px 0 30px;
-  padding: 2rem;
-}
+.typewriter {
+  text-align: center;
+  font-family: sometype-mono; }
+  .typewriter .typewriter-text {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+    white-space: nowrap;
+    font-size: 2rem;
+    border-right: 4px solid #E66EBA;
+    box-sizing: border-box; }
 
-.social-position {
-  position: absolute;
-  bottom: 3rem;
-}
+@keyframes blink {
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: #E66EBA; } }
 
-.tile {
-  background: #101010;
-  width: 4rem;
-  height: 4rem;
+.potrait {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-}
+  justify-content: center; }
+  .potrait img {
+    width: 6rem;
+    height: auto; }
 
-.low-margin {
-  margin-left: 6rem;
-}
-
-.big-margin {
-  margin-right: 6rem;
-  margin-top: -1rem;
-}
-
-.social-media-icon {
-  height: 2.25rem;
-  width: 2.25rem;
-}
-
-.name img {
+footer {
   position: absolute;
-  bottom: 2.25rem;
-  right: 5rem;
-  width: auto;
-  height: 4rem;
-}
-
-/*# sourceMappingURL=styles.css.map */
+  bottom: 0;
+  margin-bottom: 2rem;
+  width: 100%; }
+  footer .left-column {
+    float: left;
+    margin-left: 2rem; }
+    footer .left-column img {
+      padding-right: 2rem;
+      height: 2rem;
+      width: auto; }
+  footer .right-column {
+    float: right;
+    margin-right: 2rem; }
+    footer .right-column img {
+      height: 3rem;
+      width: auto; }

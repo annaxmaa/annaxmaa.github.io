@@ -1,0 +1,22 @@
+{
+  "name": "annaxmaa.github.io",
+  "version": "1.0.0",
+  "description": "Finde etwas über mich und mein Leben heraus.",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaxmaa/annaxmaa.github.io.git"
+  },
+  "author": "anna maier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaxmaa/annaxmaa.github.io/issues"
+  },
+  "homepage": "https://github.com/annaxmaa/annaxmaa.github.io#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
